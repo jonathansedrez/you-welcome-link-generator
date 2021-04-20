@@ -1,38 +1,46 @@
-.App {
+main {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 390px;
+}
+
+input {
+  padding: 8px 2px;
+  font-size: 16px;
+  height: 24px;
+  width: calc(100% - 87px);
+}
+
+.phone-input {
+  margin-left: 8px;
+}
+
+.primary-button {
+  background: #292929;
+  color: white;
+  border: none;
+  width: 120px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.primary-button:hover {
+  background: #232323;
+}
+
+.url-input {
+  width: calc(100% - 80px);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copy-button {
+  width: 72px;
+  height: 44px;
+  transform: translateY(-1px);
 }

@@ -1,0 +1,30 @@
+.radio {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.radio__box {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+}
+
+.radio__box--checked {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #292929;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+.radio__wrapper {
+  margin-left: 12px;
+  width: 100%;
+  cursor: pointer;
+}
